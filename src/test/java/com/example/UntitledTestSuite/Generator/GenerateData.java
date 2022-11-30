@@ -19,7 +19,7 @@ public class GenerateData {
     public void marshal(int count) {
         List<ProfileData> profileDataList = new ArrayList<>();
         for (int i = 0; i < count; i++) {
-            profileDataList.add(new ProfileData(String.format("Новый текст %d", count)));
+            profileDataList.add(new ProfileData(String.format("Новый текст %d", i)));
         }
 
         ProfileList profileList = new ProfileList();

@@ -6,6 +6,7 @@ import java.util.regex.Pattern;
 import java.util.concurrent.TimeUnit;
 
 import com.example.UntitledTestSuite.ApplicationManager;
+import com.example.UntitledTestSuite.Settings;
 import org.junit.*;
 import static org.junit.Assert.*;
 import static org.hamcrest.CoreMatchers.*;
@@ -29,7 +30,7 @@ public class NavigationHelper extends HelperBase {
         driver.findElement(By.xpath("(.//*[normalize-space(text()) and normalize-space(.)='Цены и тарифы'])[1]/following::a[1]")).click();
     }
     public void OpenHomePage() {
-        driver.get("https://taplink.ru/");
+        driver.get(Settings.getBaseUrl());
     }
 
     public void OpenProfilePage() {

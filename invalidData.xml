@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<accounts>
+    <account>
+        <username>username@gmail.com</username>
+        <password>password</password>
+    </account>
+    <account>
+        <username>usernametwo@gmail.com</username>
+        <password>password 1</password>
+    </account>
+</accounts>

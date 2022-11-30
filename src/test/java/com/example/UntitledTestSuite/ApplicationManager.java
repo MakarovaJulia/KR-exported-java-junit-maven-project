@@ -22,7 +22,7 @@ public class ApplicationManager {
     private LoginHelper loginHelper;
     private ProfileHelper profileHelper;
 
-    private static ThreadLocal<ApplicationManager> applicationManagerTreadLocal = new ThreadLocal<>();
+    private static ThreadLocal<ApplicationManager> applicationManagerTreadLocal = new ThreadLocal<ApplicationManager>();
 
     public ApplicationManager(){
         System.setProperty("webdriver.chrome.driver", "C:\\Users\\julma\\OneDrive\\Рабочий стол\\ИТИС\\chromedriver.exe");

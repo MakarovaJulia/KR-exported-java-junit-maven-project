@@ -25,7 +25,7 @@ public class HelperBase{
         }
     }
 
-    public boolean isAlertPresent() {
+    public boolean isAlertPresent(By xpath) {
         try {
             driver.switchTo().alert();
             return true;
